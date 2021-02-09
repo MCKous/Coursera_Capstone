@@ -9,13 +9,16 @@ A dataset was posted on Kaggle with the following description:
 Alongside this description was a dataset from Airbnb. One of the questions asked was:  are we able to predict the prices of the listings based on the dataset provided. 
 
 **1.2	Solution**
+<br>
 To solve this problem a regression model will be created to try to predict the prices of the Airbnb listings in the dataset. As the dataset contains information about geographical location and we are able to supplement the dataset with data from Foursquare. We hypothesise that adding information about the nearby venues will give a better prediction compared to the original dataset.
 
 **1.3 Interest**
+<br>
 The parties that may be interested in the results are the original poster of the dataset as well as Airbnb.
 
 
 **2. Data sources**
+<br>
 Data about AirBnB locations and prices were found in a Kaggle dataset from here.  The dataset contains information on the owner of the listing, name of the listing, the neighbourhood group, the neighbourhood, latitude and longitude, room type, availability, review metrics, minimum amount of nights, and price.
 
 To complement this dataset Foursquare API was used to collect data on the venues surrounding the respective Airbnbs. The latitude and longitude of the Airbnbs was used to derive the nearby venues in a radius of 500 meter of the listing.
